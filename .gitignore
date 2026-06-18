@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Production builds
+.next/
+out/
+.vercel/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Documentation - only include LiftLab-Documentation.pdf
+liftlab/documentation/*
+!liftlab/documentation/LiftLab-Documentation.pdf
+
+# Database
+liftlab/db/*.db
